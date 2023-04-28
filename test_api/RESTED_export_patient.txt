@@ -1,0 +1,75 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": "RESTED REST Client",
+    "Comment": "An exported collection from RESTED",
+    "entries": [
+      {
+        "request": {
+          "method": "POST",
+          "url": "http://localhost/ppe_medecin/index.php?action=patient",
+          "headers": [
+            {
+              "name": "",
+              "value": ""
+            }
+          ],
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded",
+            "params": [
+              {
+                "name": "lastName",
+                "value": "Quilliard"
+              },
+              {
+                "name": "firstName",
+                "value": "Yvan"
+              },
+              {
+                "name": "street",
+                "value": "18 rue de la libération"
+              },
+              {
+                "name": "zipCode",
+                "value": "55800"
+              },
+              {
+                "name": "city",
+                "value": "Revigny"
+              },
+              {
+                "name": "phone",
+                "value": "0767537127"
+              },
+              {
+                "name": "login",
+                "value": "yvan"
+              },
+              {
+                "name": "password",
+                "value": "YvanQuilliard1!"
+              }
+            ],
+            "text": "lastName=Quilliard&firstName=Yvan&street=18 rue de la libération&zipCode=55800&city=Revigny&phone=0767537127&login=yvan&password=YvanQuilliard1!"
+          }
+        }
+      },
+      {
+        "request": {
+          "method": "GET",
+          "url": "http://localhost/ppe_medecin/index.php?action=patient",
+          "headers": [
+            {
+              "name": "",
+              "value": ""
+            }
+          ],
+          "postData": {
+            "mimeType": "",
+            "params": []
+          }
+        }
+      }
+    ]
+  }
+}

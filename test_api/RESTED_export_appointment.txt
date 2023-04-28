@@ -1,0 +1,103 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": "RESTED REST Client",
+    "Comment": "An exported collection from RESTED",
+    "entries": [
+      {
+        "request": {
+          "method": "DELETE",
+          "url": "http://localhost/ppe_medecin/index.php?action=appointment",
+          "headers": [
+            {
+              "name": "",
+              "value": ""
+            }
+          ],
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded",
+            "params": [
+              {
+                "name": "id",
+                "value": "75"
+              }
+            ],
+            "text": "id=75"
+          }
+        }
+      },
+      {
+        "request": {
+          "method": "PUT",
+          "url": "http://localhost/ppe_medecin/index.php?action=appointment",
+          "headers": [
+            {
+              "name": "",
+              "value": ""
+            }
+          ],
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded",
+            "params": [
+              {
+                "name": "id",
+                "value": "75"
+              },
+              {
+                "name": "date",
+                "value": "2023-04-29 13-19-00"
+              }
+            ],
+            "text": "id=75&date=2023-04-29 13-19-00"
+          }
+        }
+      },
+      {
+        "request": {
+          "method": "POST",
+          "url": "http://localhost/ppe_medecin/index.php?action=appointment",
+          "headers": [
+            {
+              "name": "",
+              "value": ""
+            }
+          ],
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded",
+            "params": [
+              {
+                "name": "date",
+                "value": "2023-04-28 13-18-00"
+              },
+              {
+                "name": "token",
+                "value": "644bab3dab029"
+              },
+              {
+                "name": "idMedecin",
+                "value": "1"
+              }
+            ],
+            "text": "date=2023-04-28 13-18-00&token=644bab3dab029&idMedecin=1"
+          }
+        }
+      },
+      {
+        "request": {
+          "method": "GET",
+          "url": "http://localhost/ppe_medecin/index.php?action=appointment",
+          "headers": [
+            {
+              "name": "",
+              "value": ""
+            }
+          ],
+          "postData": {
+            "mimeType": "",
+            "params": []
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": "RESTED REST Client",
+    "Comment": "An exported collection from RESTED",
+    "entries": [
+      {
+        "request": {
+          "method": "POST",
+          "url": "http://localhost/ppe_medecin/index.php?action=authentification",
+          "headers": [
+            {
+              "name": "",
+              "value": ""
+            }
+          ],
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded",
+            "params": [
+              {
+                "name": "login",
+                "value": "yvan"
+              },
+              {
+                "name": "password",
+                "value": "YvanQuilliard1!"
+              }
+            ],
+            "text": "login=yvan&password=YvanQuilliard1!"
+          }
+        }
+      }
+    ]
+  }
+}
